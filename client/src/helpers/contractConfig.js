@@ -2,10 +2,10 @@ import { ethers } from "ethers"
 import ethSwapArtifact from "../artifacts/contracts/EthSwap.sol/EthSwap.json"
 import tokenArtifact from "../artifacts/contracts/DApp_Token.sol/DApp_Token.json"
 // Contract EthSwap
-const ethSwapAddress = "0x840AF97E590384F12902450D50F801Cd1d89161e"
+const ethSwapAddress = "0xBF1e5a05F43C58719cbEAeEA16D0Af1dd56FBE3e"
 const ethSwapABI = ethSwapArtifact.abi
 // Contract DApp_Token
-const tokenAddress = "0x840AF97E590384F12902450D50F801Cd1d89161e"
+const tokenAddress = "0xDaf12062dB44BDeEBa986c82f3122f98339779b7"
 const tokenABI = tokenArtifact.abi
 
 // Get Contracts : EthSwap
